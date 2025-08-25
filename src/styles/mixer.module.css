@@ -1,0 +1,46 @@
+.mixer{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 0.17fr 0.6fr 0.23fr;
+    grid-template-rows: 0.2fr 1fr;
+    height: 100vh;
+    gap: 10px; 
+}
+.logo{
+    background-color: chocolate;
+}
+.drug-list{
+    background-color: red;
+    height: 85%;
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    justify-content: center;
+    place-items: stretch;
+    padding: 3%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.drug-item{
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.mix-preview{
+    background-color: blue;
+    padding: 10px;
+    grid-column: 2;
+    grid-row: 2;
+}
+.store-list{
+    background-color: greenyellow;
+    padding: 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.historial-list{
+    grid-column: 3;
+    grid-row: 1 / 3;
+    background-color: orange;
+}
